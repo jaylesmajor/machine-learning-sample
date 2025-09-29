@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "machine-learning-sample"
+version = "0.1.0"
+description = ""
+authors = ["jaylesmajor <143688733+jaylesmajor@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.3.2"
+numpy = "^2.3.3"
+streamlit = "^1.50.0"
+joblib = "^1.5.2"
+shap = "^0.48.0"
+lime = "^0.2.0.1"
+config = "^0.5.1"
+scikit-learn = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
